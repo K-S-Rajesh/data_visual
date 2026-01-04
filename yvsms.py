@@ -1,0 +1,75 @@
+import os
+import tkinter as tk
+import time
+import pyautogui as pag
+
+
+pag.hotkey('alt','tab')
+time.sleep(2)
+# pag.hotkey('ctrl','/')
+time.sleep(2)
+#
+# for i in range(3):
+#     pag.hotkey('ctrl','tab')
+#     time.sleep(0.2)
+#
+# pag.press('tab')
+# time.sleep(0.2)
+# pag.press('space')
+# time.sleep(1)
+pag.write('4200')
+time.sleep(0.5)
+pag.press('tab')
+time.sleep(0.5)
+pag.write('re')
+time.sleep(0.5)
+pag.press('tab')
+time.sleep(0.5)
+# pag.press('space')
+pag.write('50800')
+time.sleep(0.5)
+pag.press('tab')
+time.sleep(0.5)
+pag.write('187732')
+time.sleep(0.5)
+pag.press('tab')
+time.sleep(0.5)
+pag.write('4247')
+time.sleep(0.5)
+pag.press('tab')
+time.sleep(0.5)
+pag.write('01')
+time.sleep(0.5)
+pag.press('tab')
+time.sleep(0.5)
+pag.write('187732')
+time.sleep(0.5)
+pag.press('tab')
+time.sleep(0.5)
+pag.write('zodd')
+time.sleep(0.5)
+pag.press('tab')
+time.sleep(0.5)
+pag.write('42491751')
+time.sleep(0.5)
+pag.press('tab')
+time.sleep(0.5)
+pag.press('space')
+time.sleep(0.5)
+pag.press('tab',presses=2)
+time.sleep(0.5)
+pag.press('enter')
+time.sleep(3)
+image_found = False
+time.sleep(1)
+while not image_found:
+    try:
+        x1, y1 = pag.center(pag.locateOnScreen("yvsms_create.png", confidence=0.7))
+        time.sleep(2)
+        pag.click(x1, y1)
+        time.sleep(2)
+        print('Hurray! image found')
+        image_found = True
+    except:
+        print(f'image not found trying again in next 2 seconds. ')
+        time.sleep(2)

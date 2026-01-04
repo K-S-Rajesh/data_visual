@@ -1,0 +1,42 @@
+import time
+import pyautogui as pag
+
+pag.hotkey('alt','tab')
+
+time.sleep(1)
+pag.hotkey('ctrl','/')
+time.sleep(1)
+pag.write('/nyv179n')
+time.sleep(1)
+pag.press('enter')
+time.sleep(0.5)
+pag.write('4400')
+time.sleep(1)
+pag.press('tab')
+time.sleep(1)
+pag.press('tab')
+time.sleep(1)
+pag.press('down')
+time.sleep(0.5)
+pag.write('4434')
+time.sleep(2)
+for i in range(3):
+    pag.press('tab')
+    time.sleep(0.5)
+pag.write('32000')
+time.sleep(0.5)
+for i in range(15):
+    pag.press('tab')
+    time.sleep(0.25)
+pag.write('ZC4023')
+time.sleep(0.5)
+pag.press('tab')
+time.sleep(0.5)
+for i in range(7):
+    pag.press('down')
+    time.sleep(0.25)
+pag.hotkey('shift','tab')
+time.sleep(0.5)
+pag.write('27.09.2025')
+time.sleep(0.5)
+pag.press('f8')

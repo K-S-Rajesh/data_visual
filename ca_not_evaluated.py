@@ -1,0 +1,38 @@
+import webbrowser
+import pyautogui as pag
+import time
+
+webbrowser.open("https://spandan.indianoil.co.in/RetailNew/Login.jsp")
+time.sleep(10)
+pag.press('tab')
+time.sleep(2)
+pag.write('00501203')
+time.sleep(1)
+pag.press('tab')
+time.sleep(2)
+pag.press('backspace',presses=10)
+time.sleep(1)
+pag.write('Hamate@123')
+time.sleep(3)
+pag.press('tab',presses=2)
+pag.write((pag.prompt(text='Enter the capcha', title='MSG Box' , default='')))
+time.sleep(2)
+pag.press('tab')
+time.sleep(2)
+pag.press('space')
+time.sleep(10)
+pag.moveTo(x=1370, y=265)
+time.sleep(1)
+pag.click(x=1370, y=265)
+time.sleep(1)
+pag.click(x=1370, y=265)
+time.sleep(1)
+pag.click(x=1042, y=411)
+time.sleep(3)
+pag.click(x=1042, y=411)
+time.sleep(1)
+pag.click(x=1086, y=563)
+time.sleep(1)
+pag.click(x=1086, y=563)
+
+

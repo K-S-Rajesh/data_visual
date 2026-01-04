@@ -1,0 +1,15 @@
+Date: 26/9/2022
+Time: 8:7
+Phone Number: +918883747058
+Message: Hi This msg is sent thru python
+--------------------
+Date: 26/9/2022
+Time: 8:11
+Group ID: RBN@ramnad
+Message: Hey All!
+--------------------
+Date: 26/9/2022
+Time: 8:13
+Group ID: https://chat.whatsapp.com/D7ClNYrSbJM0fq0TjJg1WJ
+Message: Hey All!
+--------------------
