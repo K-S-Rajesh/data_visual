@@ -8,8 +8,8 @@ pag.click(x=1532, y=1164)
 time.sleep(1)
 # pag.click(x=1531, y=1167)
 time.sleep(1)
-pag.click(x=1475, y=1018)#if two rows in system tray
-# pag.click(x=1462, y=951)#if three rows in system tray
+# pag.click(x=1475, y=1018)#if two rows in system tray
+pag.click(x=1462, y=951)#if three rows in system tray
 time.sleep(0.25)
 pag.doubleClick(x=827, y=663)
 time.sleep(2)
